@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>account</title>
+</head>
+<body>
+
+</body>
+</html>
+<script>
+    let a = prompt("nhập tên đăng nhập")
+    if(a == "Admin") {
+        alert("nhập mật khẩu");
+        let b = prompt("mời nhập mật khẩu");
+        if (b == "Themaster") {
+            alert("wellcome");
+        } else if (b == ""){
+            alert("cancel");
+        }else {
+            alert("sai mật khẩu");
+        }
+
+
+    } else if( a=="") {
+        alert("what do you want?")
+
+    }else {
+        alert("sai mật khẩu")
+    }
+
+</script>
